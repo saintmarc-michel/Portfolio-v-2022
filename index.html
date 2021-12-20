@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAINT MARC MICHEL | PORTFOLIO</title>
+
+    <!-- style Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,
+    400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Animation AOS Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Page Icon -->
+    <link rel="icon" type="image/png" href="./Icon/icons8-sigma-24.png"/>
+
+</head>
+
+<body>
+
+<!-- ====================== PAGE ACCUEIL ==================== -->
+
+<main id="accueil" >
+<!-- TEXTS Bienvenue -->
+    <div class="texts">
+        <h1>Bonjour </h1>
+        <h2>Je suis SAINT MARC Michel</h2>
+
+        <p>Bienvenue dans mon monde où vous pourrez en <br> apprendre plus sur moi.</p>
+    </div>
+
+<!-- Nav à droit -->
+    <div class="icons-left">
+        <div class="icon-left">
+            <a href="#">
+                <img src="./Icon/icons8-accueil-90.png"></a>
+        </div>
+    </div>
+
+<!-- Menu -->
+
+        <label onclick="display()" id="toggle" class="burger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+
+    <div class="menu" id="content">
+      <div class="menu-inner">
+        <ul class="menu-nav">
+          <li class="menu-nav-item"><a class="menu-nav-link" href="#accueil" onclick="relink()"><span>
+                <div>Bonjour</div>
+              </span></a></li>
+          <li class="menu-nav-item"><a class="menu-nav-link" href="#propos_de_moi" onclick="relink()"><span>
+                <div>à propos de moi</div>
+              </span></a></li>
+          <li class="menu-nav-item"><a class="menu-nav-link" href="#réalise" onclick="relink()"><span>
+                <div>réalisations </div>
+              </span></a></li>
+          <li class="menu-nav-item"><a class="menu-nav-link" href="#contact" onclick="relink()"><span>
+                <div>contacter</div>
+              </span></a></li>
+        </ul>
+      </div>
+    </div>
+
+
+<!-- Dot -->
+
+
+<!-- Nav à gauche -->
+    <div class="icons-right">
+        <div class="icon-right">
+            <a href="https://www.instagram.com/anthonyphotographer_/" 
+            target="_blank"><img src="./Icon/icons8-instagram-40.png"></a>
+            <a href="https://www.linkedin.com/in/michel-saint-marc-02176417a/" 
+            target="_blank"><img src="./Icon/icons8-linkedin-90.png"></a>
+            <a href="https://github.com/saintmarc-michel" 
+            target="_blank"><img src="./Icon/icons8-github-40.png"></a>
+        </div> 
+    </div>
+
+<!-- Scroll button -->
+    <a href="#propos_de_moi" ><div class="scroll-down"></div></a>
+
+</main>
+
+
+
+
+<!-- ===================== PAGE A PROPOS DE MOI ================== -->
+
+<section id="propos_de_moi">
+
+<!-- TEXTS -->
+    <div class="titre">
+        <h2> à propos de moi</h2>
+        <p>Je m'appelle SAINT MARC Michel et Je suis Développeur Front-End. <br>
+            Actuellement Je suis à la recherche d'un stage pour améliorer mes compétences <br>
+            en tant que développeur web... </p>
+
+<!-- Button de a propos de moi -->
+            <div class="btn-main">
+                <a href="propos.html" class="btn-green">Voir plus</a>
+            </div>
+    </div>
+</section>
+
+
+<!-- ========================== REALISATIONS ================ -->
+<section id="réalise">
+
+<!-- TEXTS -->
+    <div class="titre">
+        <h2> réalisations </h2>
+        <p>J'ai développé les sites pour m'entraîne. <br>
+            Je conçois et développer des interfaces graphiques riches <br>
+            (en HTML, CSS, Bootstrap, JavaScript)...</p>
+
+ <!-- Button de resalisation -->           
+            <div class="btn-main">
+                <a href="realise.html" class="btn-red">Voir plus</a>
+            </div>
+    </div>
+    <div></div>
+</section>
+
+
+<!-- ======================= CONTACTER ========================= -->
+<section id="contact">
+
+<!-- TEXTS -->
+    <div class="titre">
+        <h2> n'hésitez pas à me 
+            contacter </h2>
+        <p> <span>@</span> michelanthony9809@gmail.com</p>
+
+<!-- Reseau social icons hoz-->
+        <div class="icon">
+            <a href="https://www.instagram.com/anthonyphotographer_/" target="_blank"><img src="./Icon/icons8-instagram-40.png"></a>
+            <a href="https://www.linkedin.com/in/michel-saint-marc-02176417a/" target="_blank"><img src="./Icon/icons8-linkedin-90.png"></a>
+        </div>  
+
+<!-- Button telecharger le cv -->
+        <div class="btn-con">
+            <a href="CV_Michel_SAINT_MARC.pdf" target="_blank" class="btn-vilot">
+                <img src="./Icon/icons8-ouvrir-le-cv-48.png"/>CV</a>
+        </div>         
+    </div>
+
+</section>
+
+
+</body> 
+
+
+<!-- Animation AOS Script Link -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script> AOS.init(); </script>
+
+
+<!-- JAVASCRIPT  -->
+<script> function display() {
+    var content =document.getElementById("content");
+     var toggle =document.getElementById("toggle");
+     if (toggle.classList.contains("show")) {
+          toggle.classList.remove("show");
+          
+         }
+     else 
+         {
+            toggle.classList.add("show");
+          
+          }
+     }
+     function relink() {
+    var content =document.getElementById("content");
+     var toggle =document.getElementById("toggle");
+     if (toggle.classList.contains("show")) {
+          toggle.classList.remove("show");
+          
+         }
+    
+     }
+    </script>
+    
+</html>
